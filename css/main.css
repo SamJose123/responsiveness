@@ -12,6 +12,37 @@ and wrapping the duplicate in a mobile-first media query (I’m using 500px as t
 
     .grid-1 {
         /* grid declaration styles */
+        display: grid;
+        width: 100px;
+        max-width: 100%;
+        margin: 0 auto;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto 80px;
+        grid-gap: 20px;
+
+        grid-template-areas:
+        "header"
+        "main"
+        "sodebar"
+        "footer";
     }
+
+    .item-2 {
+        background: plum;
+        grid-area: main;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 20px;
+
+        grid-template-areas: 
+        "header"
+        "article"
+        "sidebar"
+    }
+
 
 }
