@@ -7,4 +7,4 @@ Tech used:  HTML
             CSS
             RS
 
-If there's any comments or anything of that sort you can check out the link: https://github.com/SamJose123/responsiveness.index.html
+If there's any comments or anything of that sort you can check out the link: https://samjose123.github.io/responsiveness/.index.html
